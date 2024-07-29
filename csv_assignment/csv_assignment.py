@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 #set the root directory of your image dataset
-dataset_root = "C:\Users\James\Documents\MYAIProjects\csv_assignment\images"
+dataset_root = r"C:\Users\James\Documents\MYAIProjects\csv_assignment\images"
 
 # initialize an empty dataframe with columns for imapge_path and label
 image_data = pd.DataFrame(columns=["image_path", "label"])
